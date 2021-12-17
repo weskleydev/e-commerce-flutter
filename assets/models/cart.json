@@ -1,0 +1,21 @@
+{
+  "_id": "61b3b5bf4c492e007ec47a10",
+  "product": {
+    "_id": "61b38c7e7f646dfdcd7f5089",
+    "category": "61b3769088c423abd457b02e",
+    "name": "product_Atualizado",
+    "description": "description of the product",
+    "images": ["image1", "image2", "image3", "image4"],
+    "sizes": [
+      {
+        "name": "P",
+        "price": 99.9,
+        "stock": 10,
+        "_id": "61b3a48d71c913b206a0eb37"
+      }
+    ],
+    "deleted": false
+  },
+  "quantity": 1,
+  "size": "G"
+}

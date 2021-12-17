@@ -1,0 +1,57 @@
+{
+  "_id": "61b3b5bf4c492e007ec47a10",
+  "product": {
+    "_id": "61b4b1b735ce5195857e314c",
+    "name": "Chuteira de Campo Masculina Mizuno Morelia Neo III Elite",
+    "images": [
+      "https://ecommerce-model.s3.amazonaws.com/chuteiras/mizuno/mizuno_2.JPG",
+      "https://ecommerce-model.s3.amazonaws.com/chuteiras/mizuno/mizuno_2_2.JPG"
+    ],
+    "sizes": [
+      {
+        "name": "38",
+        "price": 999.99,
+        "stock": 2,
+        "_id": "61b4b1b735ce5195857e314d"
+      },
+      {
+        "name": "39",
+        "price": 999.99,
+        "stock": 3,
+        "_id": "61b4b1b735ce5195857e314e"
+      },
+      {
+        "name": "40",
+        "price": 999.99,
+        "stock": 4,
+        "_id": "61b4b1b735ce5195857e314f"
+      },
+      {
+        "name": "41",
+        "price": 999.99,
+        "stock": 5,
+        "_id": "61b4b1b735ce5195857e3150"
+      },
+      {
+        "name": "42",
+        "price": 999.99,
+        "stock": 5,
+        "_id": "61b4b1b735ce5195857e3151"
+      },
+      {
+        "name": "43",
+        "price": 999.99,
+        "stock": 4,
+        "_id": "61b4b1b735ce5195857e3152"
+      },
+      {
+        "name": "44",
+        "price": 999.99,
+        "stock": 3,
+        "_id": "61b4b1b735ce5195857e3153"
+      }
+    ]
+  },
+  "quantity": 1,
+  "size": "G"
+}

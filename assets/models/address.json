@@ -1,0 +1,16 @@
+{
+  "_id": "61b8c92f9548e17a2c3a53e7",
+  "user": {
+    "_id": "61b37484bd2f4d4e3214f583"
+  },
+  "city": "city",
+  "complement": "complement",
+  "district": "district",
+  "lat": 1000,
+  "long": 1000,
+  "number": 10,
+  "state": "state",
+  "street": "street",
+  "zipCode": "zipCode",
+  "__v": 0
+}

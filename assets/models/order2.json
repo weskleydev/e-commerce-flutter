@@ -1,0 +1,84 @@
+{
+  "_id": "61bbf5e3ececf22a95890d15",
+  "user": {
+    "_id": "61b37484bd2f4d4e3214f583",
+    "name": "admin",
+    "email": "admin@gmail.com"
+  },
+  "price": 1235.72,
+  "payment": "Pix",
+  "status": "Pedido Recebido",
+  "items": [
+    {
+      "cart": {
+        "_id": "61bbe324e93b74cb43dc12c7",
+        "user": "61b37484bd2f4d4e3214f583",
+        "product": {
+          "_id": "61b4af3535ce5195857e3143",
+          "category": "61b4074573dfecaf715060d1",
+          "name": "Chuteira de Campo Masculina Mizuno Morelia Club MD P",
+          "description": "Detalhes do Produto\n\nPossui os mesmos atributos da linha Morelia: conforto e durabilidade para o produto. Nesta versão, além da matéria prima um material sintético, possui solado diferenciado com TPU que proporciona maior maciez e borracha non-parking que permite maior estabilidade nas jogadas.\n\nInformações Técnicas\n\nSolado: TPU\nPisada: Neutra\nFechamento: Cadarço\nLinha: Futebol\nIndicado Para: Esporte\nOrigem: Nacional\nGênero: Masculino\nComposição: Couro Sintético / TPU\nGarantia do Fabricante: Contra defeito de fabricação.\nDiferenciais do Produto: Conforto, maciez e durabilidade\nPeso do Produto: 160g (O peso do produto varia de acordo com a numeração).",
+          "images": [
+            "https://ecommerce-model.s3.amazonaws.com/chuteiras/mizuno/mizuno_1.jpg",
+            "https://ecommerce-model.s3.amazonaws.com/chuteiras/mizuno/mizuno_1_2.JPG",
+            "https://ecommerce-model.s3.amazonaws.com/chuteiras/mizuno/mizuno_1_3.JPG",
+            "https://ecommerce-model.s3.amazonaws.com/chuteiras/mizuno/mizuno_1_4.JPG"
+          ],
+          "sizes": [
+            {
+              "name": "38",
+              "price": 229.99,
+              "stock": 2,
+              "_id": "61b4af3535ce5195857e3144"
+            },
+            {
+              "name": "39",
+              "price": 229.99,
+              "stock": 0,
+              "_id": "61b4af3535ce5195857e3145"
+            },
+            {
+              "name": "40",
+              "price": 229.99,
+              "stock": 3,
+              "_id": "61b4af3535ce5195857e3146"
+            },
+            {
+              "name": "41",
+              "price": 229.99,
+              "stock": 5,
+              "_id": "61b4af3535ce5195857e3147"
+            },
+            {
+              "name": "42",
+              "price": 229.99,
+              "stock": 1,
+              "_id": "61b4af3535ce5195857e3148"
+            },
+            {
+              "name": "43",
+              "price": 229.99,
+              "stock": 0,
+              "_id": "61b4af3535ce5195857e3149"
+            },
+            {
+              "name": "44",
+              "price": 229.99,
+              "stock": 3,
+              "_id": "61b4af3535ce5195857e314a"
+            }
+          ],
+          "deleted": false,
+          "__v": 0
+        },
+        "quantity": 1,
+        "size": "42",
+        "__v": 0
+      },
+      "fixedPrice": 229.99,
+      "_id": "61bbf5e3ececf22a95890d16"
+    }
+  ],
+  "createDate": "2021-12-17T02:28:51.142Z",
+  "number": 6
+}

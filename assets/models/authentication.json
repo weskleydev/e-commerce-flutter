@@ -1,0 +1,12 @@
+{
+  "message": "Usuário Autenticado com sucesso!",
+  "user": {
+    "_id": "61b37484bd2f4d4e3214f583",
+    "name": "admin",
+    "email": "admin@gmail.com",
+    "password": "$2b$10$sh3QuPibRO9bWaIovKUH0uMxd2Lyvz5jGyXGue80ewYrb1PYL9fgm",
+    "roles": ["user", "admin"],
+    "__v": 0
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxYjM3NDg0YmQyZjRkNGUzMjE0ZjU4MyIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwibmFtZSI6ImFkbWluIiwicm9sZXMiOlsidXNlciIsImFkbWluIl0sImlhdCI6MTYzOTE5MTMyOSwiZXhwIjoxNjM5Nzk2MTI5fQ.cPR5OtW1rJ_KObQf3Xq3u_wdWdowwtcsYWfKG6zfP_4"
+}

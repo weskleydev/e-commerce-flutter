@@ -1,0 +1,25 @@
+{
+  "_id": "61b3c5ad8e3a2f2f467082a1",
+  "user": {
+    "_id": "61b37484bd2f4d4e3214f583",
+    "name": "admin",
+    "email": "admin@gmail.com"
+  },
+  "price": 415.8,
+  "payment": "Cartão de Crédito",
+  "status": "Pedido Finalizado",
+  "items": [
+    {
+      "cart": null,
+      "fixedPrice": 199.9,
+      "_id": "61b3c5ad8e3a2f2f467082a2"
+    },
+    {
+      "cart": null,
+      "fixedPrice": 189.9,
+      "_id": "61b3c5ad8e3a2f2f467082a3"
+    }
+  ],
+  "createDate": "2021-12-10T21:25:01.752Z",
+  "number": 1
+}
