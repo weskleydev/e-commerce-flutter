@@ -31,10 +31,14 @@ class AddressProvider extends GetConnect {
       if (address.zipCode != null) {
         return address;
       } else {
+        // Messages.error("Ops!", 'CEP Inválido');
         return Future.error('CEP Inválido');
+        // return null;
       }
     } catch (e) {
-      Messages.error("Error Catch", e.toString());
+      return Future.error(e);
+      // Messages.error("Error", e.toString());
+      // return null;
     }
   }
 

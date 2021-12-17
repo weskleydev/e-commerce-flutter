@@ -1,6 +1,7 @@
 import 'package:ecommerce_model/app/modules/address/address_view.dart';
 import 'package:ecommerce_model/app/modules/authentication/user_controller.dart';
 import 'package:ecommerce_model/app/routes/app_pages.dart';
+import 'package:ecommerce_model/app/widgets/bottom_bar.dart';
 import 'package:ecommerce_model/app/widgets/empty_card.dart';
 import 'package:ecommerce_model/app/widgets/erro.dart';
 import 'package:ecommerce_model/app/widgets/loading.dart';
@@ -18,10 +19,15 @@ class CartView extends GetView<CartController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      bottomNavigationBar: BottomBar(2),
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         title: const Text('Carrinho'),
         centerTitle: true,
+        leading: Icon(
+          Icons.sports_soccer_outlined,
+          size: 35,
+        ),
       ),
       body: controller.obx(((state) {
         if (userController.user.sId == null) {

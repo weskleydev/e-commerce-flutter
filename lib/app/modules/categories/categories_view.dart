@@ -1,6 +1,7 @@
 import 'package:ecommerce_model/app/modules/authentication/user_controller.dart';
 import 'package:ecommerce_model/app/modules/categories/components/list_tab.dart';
 import 'package:ecommerce_model/app/routes/app_pages.dart';
+import 'package:ecommerce_model/app/widgets/bottom_bar.dart';
 import 'package:ecommerce_model/app/widgets/empty_card.dart';
 import 'package:ecommerce_model/app/widgets/erro.dart';
 import 'package:ecommerce_model/app/widgets/loading.dart';
@@ -14,6 +15,7 @@ class CategoriesView extends GetView<CategoriesController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        bottomNavigationBar: BottomBar(1),
         floatingActionButton: userController.isLoggedIn
             ? FloatingActionButton(
                 onPressed: () => Get.toNamed(Routes.cart),
@@ -23,9 +25,10 @@ class CategoriesView extends GetView<CategoriesController> {
         appBar: AppBar(
           title: Text('Categorias'),
           centerTitle: true,
-          leading: IconButton(
-              onPressed: () => Get.toNamed(Routes.orders),
-              icon: Icon(Icons.checklist_rtl_outlined)),
+          leading: Icon(
+            Icons.sports_soccer_outlined,
+            size: 35,
+          ),
           actions: [
             Obx(() => userController.isLoggedIn
                 ? button(

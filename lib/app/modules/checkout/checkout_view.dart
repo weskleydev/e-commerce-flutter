@@ -100,7 +100,7 @@ class CheckoutView extends GetView<CheckoutController> {
                         Get.offAllNamed(Routes.cart);
                       }, onSuccess: () {
                         Get.offAllNamed(Routes.categories);
-                        Get.to(ConfirmationView());
+                        Get.to(() => ConfirmationView());
                       });
                     },
                   )

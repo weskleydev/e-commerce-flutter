@@ -1,5 +1,6 @@
 import 'package:ecommerce_model/app/modules/cart/cart_model.dart';
 import 'package:ecommerce_model/app/modules/products/components/product_details.dart';
+import 'package:ecommerce_model/app/modules/products/products_binding.dart';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -12,7 +13,8 @@ class ConfirmationTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () => Get.to(() => ProductDetails(cartProduct.product)),
+      onTap: () => Get.to(() => ProductDetails(cartProduct.product),
+          binding: ProductsBinding()),
       child: Container(
         margin: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
         padding: const EdgeInsets.all(8),

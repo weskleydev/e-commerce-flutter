@@ -22,7 +22,7 @@ void main() async {
       child: Container(
         decoration: BoxDecoration(
             gradient: LinearGradient(colors: [
-          Colors.black54,
+          Colors.indigo.shade900,
           Colors.blueGrey.withOpacity(0.9),
           Colors.black54,
         ], begin: Alignment.topLeft, end: Alignment.bottomLeft)
@@ -38,7 +38,7 @@ void main() async {
           getPages: AppPages.routes,
           theme: ThemeData(
               scaffoldBackgroundColor: Colors.transparent,
-              primaryColor: Colors.blueAccent,
+              primaryColor: Colors.indigo.shade900,
               iconTheme: IconThemeData(color: Colors.white),
               textTheme: TextTheme(
                 bodyText1: TextStyle(color: Colors.white, fontSize: 18),

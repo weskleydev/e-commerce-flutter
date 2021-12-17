@@ -24,14 +24,13 @@ part 'app_routes.dart';
 class AppPages {
   AppPages._();
 
-  static const initial = Routes.categories;
+  static const initial = Routes.home;
 
   static final routes = [
     GetPage(
-      name: _Paths.home,
-      page: () => HomeView(),
-      binding: HomeBinding(),
-    ),
+        name: _Paths.home,
+        page: () => HomeView(),
+        bindings: [HomeBinding(), AuthenticationBinding()]),
     GetPage(
         name: _Paths.products,
         page: () => ProductsView(),
@@ -39,7 +38,7 @@ class AppPages {
     GetPage(
         name: _Paths.categories,
         page: () => CategoriesView(),
-        bindings: [CategoriesBinding(), AuthenticationBinding()]),
+        binding: CategoriesBinding()),
     GetPage(
       name: _Paths.authentication,
       page: () => AuthenticationView(),

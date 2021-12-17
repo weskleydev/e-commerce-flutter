@@ -1,5 +1,6 @@
 import 'package:ecommerce_model/app/modules/authentication/user_controller.dart';
 import 'package:ecommerce_model/app/modules/cart/cart_controller.dart';
+import 'package:ecommerce_model/utils/messages.dart';
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 import 'address_model.dart';
@@ -40,7 +41,8 @@ class AddressController extends GetxController {
       }
     } catch (e) {
       loading = false;
-      return Future.error('CEP Inválido');
+      Messages.error('$e', cep);
+      return;
     }
     loading = false;
   }

@@ -72,43 +72,7 @@ class AppText extends StatelessWidget {
               ? onFieldSubmitted as void Function(String)
               : ((term) => _fieldFocusChange(context, focusNode, nextFocus)),
           style: TextStyle(color: color ?? Colors.black.withOpacity(0.3)),
-          decoration: InputDecoration(hintText: hint, suffixIcon: suffixIcon)
-          // InputDecoration(
-          //     alignLabelWithHint: true,
-          //     prefix: prefix,
-          //     errorText: errorText,
-          //     prefixIcon: (iconPrefixo != null)
-          //         ? Icon(iconPrefixo,
-          //             color: color ?? Colors.black.withOpacity(0.3))
-          //         : null,
-          //     labelText: label,
-          //     hintText: hint,
-          //     hintStyle:
-          //         TextStyle(color: Colors.grey.withOpacity(0.8), fontSize: 15),
-          //     labelStyle: TextStyle(
-          //       color: color ?? Colors.black.withOpacity(0.3),
-          //     ),
-          //     isDense: true,
-          //     disabledBorder: OutlineInputBorder(
-          //       borderRadius: BorderRadius.circular(10),
-          //       borderSide:
-          //           BorderSide(color: Colors.black.withOpacity(0.2), width: 0.6),
-          //     ),
-          //     enabledBorder: OutlineInputBorder(
-          //       borderRadius: BorderRadius.circular(10),
-          //       borderSide:
-          //           BorderSide(color: Colors.black.withOpacity(0.6), width: 0.6),
-          //     ),
-          //     focusedBorder: OutlineInputBorder(
-          //       borderRadius: BorderRadius.circular(10),
-          //       borderSide:
-          //           BorderSide(color: Colors.black.withOpacity(0.6), width: 0.6),
-          //     ),
-          //     contentPadding:
-          //         EdgeInsets.only(left: 5, right: 30, bottom: 15, top: 15),
-          //     suffixIcon: suffixIcon),
-
-          ),
+          decoration: InputDecoration(hintText: hint, suffixIcon: suffixIcon)),
     );
   }
 

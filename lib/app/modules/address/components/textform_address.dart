@@ -41,6 +41,7 @@ class TextFormAddress extends GetView<AddressController> {
       enabled: enabled,
       initialValue: initialValue,
       textInputAction: textInputAction,
+      autofocus: true,
       style: TextStyle(
           color: enabled! ? Colors.black : Colors.black54,
           fontWeight: FontWeight.w600),

@@ -65,11 +65,6 @@ class AuthenticationController extends GetxController {
         password = '';
         Get.back();
         Messages.welcome(userController.user);
-        Get.snackbar(
-          '${auth["message"]}',
-          'Seja Bem Vindo!',
-          backgroundColor: Colors.white,
-        );
       }
       loading = false;
     }).catchError((e) {
@@ -91,10 +86,7 @@ class AuthenticationController extends GetxController {
         email = '';
         password = '';
         Get.close(2);
-        Get.snackbar('Olá', 'Seja Bem Vindo ${auth['name']}',
-            backgroundColor: Colors.white,
-            animationDuration: Duration(seconds: 4),
-            snackPosition: SnackPosition.BOTTOM);
+        Messages.welcome(userController.user);
       } else {
         Get.defaultDialog(title: "Erro", content: Text('${auth['message']}'));
       }

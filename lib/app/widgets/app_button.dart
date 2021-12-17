@@ -28,6 +28,7 @@ class AppButton extends StatelessWidget {
             )
           : Text(
               title,
+              textAlign: TextAlign.center,
               style: TextStyle(
                   fontSize: 15,
                   //  fontFamily: 'SFUIDisplay',
