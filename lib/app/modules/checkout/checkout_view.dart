@@ -98,9 +98,9 @@ class CheckoutView extends GetView<CheckoutController> {
                     onPressed: () {
                       controller.checkout(onStockFail: (e) {
                         Get.offAllNamed(Routes.cart);
-                      }, onSuccess: () {
-                        Get.offAllNamed(Routes.categories);
-                        Get.to(() => ConfirmationView());
+                      }, onSuccess: () async {
+                        // Get.offAllNamed(Routes.home);
+                        await Get.to(() => ConfirmationView());
                       });
                     },
                   )

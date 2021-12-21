@@ -1,5 +1,6 @@
 import 'package:ecommerce_model/app/modules/checkout/checkout_controller.dart';
 import 'package:ecommerce_model/app/modules/orders/order_model.dart';
+import 'package:ecommerce_model/app/routes/app_pages.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'confirmation_tile.dart';
@@ -15,6 +16,9 @@ class ConfirmationView extends GetView<CheckoutController> {
         appBar: AppBar(
           title: const Text('Pedido Confirmado'),
           centerTitle: true,
+          leading: IconButton(
+              onPressed: () => Get.offAllNamed(Routes.home),
+              icon: Icon(Icons.arrow_back)),
         ),
         body: Center(
           child: Card(

@@ -152,7 +152,6 @@ class ProductDetails extends GetView<ProductsController> {
                     SizedBox(
                       height: 44,
                       child: Obx(() {
-                        print(controller.selectedSize);
                         return AppButton(
                           onPressed: controller.selectedSize.sId == ''
                               ? null

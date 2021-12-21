@@ -5,7 +5,6 @@ const token = 'b6c0014a81d51e5ebd45977bdc4afeac';
 
 class CepAbertoService extends GetConnect {
   Future<CepAbertoAddress> getAddressFromCep(String cep) async {
-    print('cep:$cep');
     final cleanCep = cep.replaceAll('.', '').replaceAll('-', '');
     final endpoint = "https://www.cepaberto.com/api/v3/cep?cep=$cleanCep";
 

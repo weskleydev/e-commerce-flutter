@@ -21,12 +21,12 @@ class Home {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['_id'] = this.sId;
-    data['image'] = this.image;
-    data['pos'] = this.pos;
-    data['eixoX'] = this.eixoX;
-    data['eixoY'] = this.eixoY;
+    final Map<String, dynamic> data = <String, dynamic>{};
+    data['_id'] = sId;
+    data['image'] = image;
+    data['pos'] = pos;
+    data['eixoX'] = eixoX;
+    data['eixoY'] = eixoY;
     return data;
   }
 

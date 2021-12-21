@@ -14,12 +14,10 @@ class OrdersProvider extends GetConnect {
       final response =
           await get('$url/orders', headers: {"x-access-token": userToken!});
       if (response.statusCode == 200) {
-        print(response.body);
         List<Order> orders = response.body.map<Order>((map) {
           return Order.fromJson(map);
         }).toList();
 
-        print(orders);
         return orders;
       }
     } catch (e) {

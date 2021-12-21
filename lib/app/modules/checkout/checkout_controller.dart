@@ -31,7 +31,7 @@ class CheckoutController extends GetxController {
       await _decrementStock();
     } catch (e) {
       onStockFail(e);
-      loading = true;
+      loading = false;
       return;
     }
 
@@ -47,7 +47,8 @@ class CheckoutController extends GetxController {
         .postOrder(order, cartController.cartList);
     // print(orderSave);
     cartController.clear();
-    onSuccess();
+    await Future.delayed(Duration(seconds: 2));
+    await onSuccess();
     loading = false;
   }
 

@@ -61,7 +61,7 @@ class CartController extends GetxController with StateMixin<List<Cart>> {
   getItems() async {
     cartList.clear();
     cartList = await provider.getItems();
-    print('onInit');
+
     if (cartList != []) {
       change(cartList, status: RxStatus.success());
     } else {

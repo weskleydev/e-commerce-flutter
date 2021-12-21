@@ -62,7 +62,6 @@ class AddressController extends GetxController {
       } else {
         address = await provider.postAddress(newAddress);
       }
-      print(address);
 
       loading = false;
     } else {
